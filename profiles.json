@@ -1,0 +1,23 @@
+{
+  "jaysin":{
+    "title": "Jaysin's Page",
+    "teammember": "Jaysin",
+    "biotext": "<p>Hi my name is Jaysin H, and this is my about page.</p><p>Im not a huge fan of OneDrive as it can be pretty stupid at at times. </p><p>Im not to social around people I dont know but around friends I can be talkative.</p><p>I dont really have any career goals for myself at the moment, but if I had to chose I would say something along the lines with game design.</p><p>The concept for this game is pretty weird, as it's more on little nods about me. A lot of easter egg ideas. </p>"
+  },
+  "oley":{
+    "title":"Oley's Page",
+    "teammember":"Oley",
+    "biotext":"<p>My specialties include web design and JavaScript.</p><p>I hope to start a career as a programmer in the future, possibly as a web or game developer. ඞ</p>"
+  },
+  "john":{
+    "title":"John's Sussy Emporium",
+    "teammember":"John",
+    "biotext":"<p>I hate OneDrive.</p><p>I play agressive rampart.</p><p>I want to program 10 ft tall robots to stalk around my house with murderous intent.</p>"
+  },
+  "christian":{
+    "title":"Christian's Dungeon",
+    "teammember":"Christian",
+    "biotext":"<p>I tend to like being around people and have conversations about random stuff.</p><p>I play Plague on DBD.</p><p>I enjoy to rollerskate and listen to music.</p>"
+  }
+
+}

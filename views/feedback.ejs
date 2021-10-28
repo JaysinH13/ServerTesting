@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="feedback.css">
+  </head>
+  <body>
+    <h1>Feedback</h1>
+
+    <form method="post">
+      <input type="text" name="name" placeholder="Student's name"><br><br>
+      <textarea name="comment" rows="4" placeholder="Comment"></textarea><br><br>
+      <input type="submit" class="small" onclick="location.reload();">
+    </form>
+    <br>
+
+    <h2>Comments</h2>
+    <form method="post" action="/clearcomments">
+      <input type="submit" class="small" value="Clear" onclick="location.reload();">
+    </form>
+    <br>
+    <p id="comments">
+      <% for (var i = 0; i < comments.length; i++) { %>
+        <b><%= comments[i].name %>:</b> <%= comments[i].comment %><br>
+      <% } %>
+    </p>
+
+    <form class="buttonForm homeButton" action="/">
+      <input type="submit" value="Home" />
+    </form>
+  </body>
+</html>
